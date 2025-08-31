@@ -1,0 +1,101 @@
+body{
+  background-color: aquamarine;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  font: bold;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 ;
+}
+
+.container{
+  background: white;
+  text-align: center;
+  padding: 30px;
+  width: 350px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+}
+
+.container p{
+  color: #35c40e;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.form-group{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  margin: 10px 0;
+}
+
+.form-group label {
+  width: 120px; 
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form-group input {
+  flex: 1;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.registration-button{
+  background: #28a745;
+  padding: 12px 15px;
+  color: white;
+  border:none;
+  margin-top: 15px;
+  margin-left: 200px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 35%;
+  font-size: 14px;
+}
+
+.registration-button:hover{
+  background: #218838;
+}
+
+.username-input{
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.name-input{
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.surname-input{
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.email-input{
+  border-radius: 6px;
+  padding: 8px;
+}
+.password-input{
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.confirmPassword-input{
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.form-link {
+  display: block;   
+  margin-top: 15px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
