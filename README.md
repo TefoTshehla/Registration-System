@@ -13,6 +13,6 @@ Basic styling with CSS (no external frameworks used)
 Future Improvements
 Add form validation with JavaScript
 Save user details securely
-Connect with backend (Node.js / database)
+Connect with backend (database)
 Redirect after successful registration
-![Registration demo](registrationForm)
+![Registration demo](registrationForm.png)
